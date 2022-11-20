@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e1cf738-ceea-451c-982a-5867907603fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.assets/image-20221120182340649.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.assets/image-20221120182554471.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.assets/image-20221120183206694.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/claim.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Windows 10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../php-fuzz-sub2-black-widow/black-widow/Classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../php-fuzz-sub2-black-widow/black-widow/Classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/.idea/密码学课程设计.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/.pytest_cache/v/cache/nodeids" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/.pytest_cache/v/cache/stepwise" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/A5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/AES.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/ChiToEng.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/DES.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/DES_BOX.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/DESplain.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/Kaisa_decode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/MD5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/MD5cipher.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/MD5plain.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/RC4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/RSA1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/RSAATT.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/VigenereDecrypto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/VigenereEncrypto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/Vigenere_cracker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/Vtext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/bilibili.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/caesar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/decode.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/encode.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/finaldecode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/finalencode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/finalkey.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/finalplain.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/gui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/m.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/myRSA.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/rsa_att.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/sequential.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../密码学/time.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Gz1asSKw7kdfZAPnz3oL8OtC45" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/src" />
+      <recent name="$PROJECT_DIR$/server/db" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.student">
+    <configuration name="blackboard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="IEMS5710" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/blackboard.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="board_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="IEMS5710" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/src/board_function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cuhk" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="IEMS5710" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/cuhk.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="handler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="IEMS5710" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/client/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client/src/handler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="IEMS5710" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="student" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="IEMS5710" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/client" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client/student.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.student" />
+        <item itemvalue="Python.cuhk" />
+        <item itemvalue="Python.blackboard" />
+        <item itemvalue="Python.board_function" />
+        <item itemvalue="Python.handler" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e1cf738-ceea-451c-982a-5867907603fd" name="Changes" comment="" />
+      <created>1667376665937</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667376665937</updated>
+      <workItem from="1667376671337" duration="11341000" />
+      <workItem from="1667526604983" duration="60215000" />
+      <workItem from="1668933220671" duration="3304000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/IEMS5710$setting.coverage" NAME="setting Coverage Results" MODIFIED="1668061689080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server/config" />
+    <SUITE FILE_PATH="coverage/IEMS5710$board_function.coverage" NAME="board_function Coverage Results" MODIFIED="1668136286047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server/src" />
+    <SUITE FILE_PATH="coverage/IEMS5710$gen_cer.coverage" NAME="gen_cer Coverage Results" MODIFIED="1667379387381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IEMS5710$req.coverage" NAME="req Coverage Results" MODIFIED="1667394127962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server/utils" />
+    <SUITE FILE_PATH="coverage/IEMS5710$cuhk.coverage" NAME="cuhk Coverage Results" MODIFIED="1668939757912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
+    <SUITE FILE_PATH="coverage/IEMS5710$student.coverage" NAME="student Coverage Results" MODIFIED="1668939760830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client" />
+    <SUITE FILE_PATH="coverage/IEMS5710$function.coverage" NAME="function Coverage Results" MODIFIED="1668068022420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server/src" />
+    <SUITE FILE_PATH="coverage/IEMS5710$DES.coverage" NAME="DES Coverage Results" MODIFIED="1668095291561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IEMS5710$pki_helper.coverage" NAME="pki_helper Coverage Results" MODIFIED="1667578477163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/IEMS5710$account.coverage" NAME="account Coverage Results" MODIFIED="1667392594924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server/db" />
+    <SUITE FILE_PATH="coverage/IEMS5710$blackboard.coverage" NAME="blackboard Coverage Results" MODIFIED="1668939754351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
+    <SUITE FILE_PATH="coverage/IEMS5710$handler.coverage" NAME="handler Coverage Results" MODIFIED="1668130227238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client/src" />
+    <SUITE FILE_PATH="coverage/IEMS5710$setting__1_.coverage" NAME="setting (1) Coverage Results" MODIFIED="1668062010927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client/config" />
+  </component>
+</project>
