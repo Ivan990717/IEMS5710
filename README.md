@@ -1,6 +1,13 @@
 # HOW TO RUN
 
-1. The three py files required by the file are stored in `IEMS5710/client/student.py` , `IEMS5710/server/cuhk.py` and `IEMS5710/server/blackboard.py`. When you have run the server side and client side, There is a check here to verify whether you have a certificate issued by CUHK. If not, you must first visit CUHK, and then visit BLACKBORARD.
+1. You can change the CUHK port and BLACKBOARD port in the `config.settings.py`, both `server or client/config/settings.py`. By default I used these two port numbers.
+
+   ```python
+   CUHKport = 8011
+   BBport = 8002
+   ```
+
+2. The three py files required by the file are stored in `IEMS5710/client/student.py` , `IEMS5710/server/cuhk.py` and `IEMS5710/server/blackboard.py`. When you have run the server side and client side, There is a check here to verify whether you have a certificate issued by CUHK. If not, you must first visit CUHK, and then visit BLACKBORARD.
 
 ![image-20221120182340649](README.assets/image-20221120182340649.png)
 
@@ -13,6 +20,8 @@
    ![image-20221120183206694](README.assets/image-20221120183206694.png)
 
    As you can see, step4-6 will automatically run, including cert_verification, generating MAC and encrypting message, as well as sending message. 
+
+4. If you want to terminate the program, at the last you can choose **q** and the code will automatically send this command. The server will recognize that this is a command to close the connection, and then it will automatically disconnect
 
 # PACKAGE REQUIREMENTS
 

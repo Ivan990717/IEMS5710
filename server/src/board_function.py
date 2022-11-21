@@ -11,7 +11,7 @@ from cryptography.hazmat.primitives import serialization
 import logging
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s')  # logging.basicConfig函数对日志的输出格式及方式做相关配置
-# 由于日志基本配置中级别设置为DEBUG，所以一下打印信息将会全部显示在控制台上
+
 from server.utils import req
 from server.config import setting
 from server.src import pki_helper
