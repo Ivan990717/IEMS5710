@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6e1cf738-ceea-451c-982a-5867907603fd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/config/setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/config/setting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/blackboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/blackboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/cuhk.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/cuhk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/board_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/board_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/claim.md" beforeDir="false" afterPath="$PROJECT_DIR$/claim.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../php-fuzz-sub2-black-widow/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../php-fuzz-sub2-black-widow/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../php-fuzz-sub2-black-widow/.idea/misc.xml" beforeDir="false" />
@@ -256,8 +249,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.cuhk" />
-        <item itemvalue="Python.student" />
         <item itemvalue="Python.blackboard" />
+        <item itemvalue="Python.student" />
         <item itemvalue="Python.board_function" />
         <item itemvalue="Python.handler" />
       </list>
@@ -274,7 +267,7 @@
       <workItem from="1667376671337" duration="11341000" />
       <workItem from="1667526604983" duration="60215000" />
       <workItem from="1668933220671" duration="6827000" />
-      <workItem from="1669203929814" duration="4236000" />
+      <workItem from="1669203929814" duration="4666000" />
     </task>
     <servers />
   </component>

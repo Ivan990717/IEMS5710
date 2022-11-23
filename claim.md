@@ -152,6 +152,10 @@ Here I use the package cryptography that comes with python to complete the funct
 
 During this semester, I also learned a lot of related content by myself, and summarized the relevant codes in my blog for reference. [Python_CSR](https://www.cnblogs.com/ivanlee717/p/16859513.html)
 
+And I used the function I wrote before to transfer the file to simulate the function of the server sending the certificate to the client
+
+![image-20221123232545432](claim.assets/image-20221123232545432.png)
+
 # 5. Encrypt the session key
 
 RC4 (also known as Rivest Cipher 4) is a form of stream cipher that operates on a stream of data byte-by-byte. RC4 stream cipher is one of the most widely used stream ciphers, it encrypts messages one byte at a time through an algorithm, is simple and fast to operate.
