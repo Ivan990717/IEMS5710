@@ -79,30 +79,33 @@ class Verify(object):
     def enter_Stu(self,conn):
         req.send_data(conn,"please input your student_id")
         ID = req.recv_data(conn).decode('utf8')  # id
+        if ID.upper() != 'Q':
+            logging.info("student_id: {}".format(ID))
 
-        logging.info("student_id: {}".format(ID))
         req.send_data(conn,"ID{} logins successfully".format(ID))
         return ID
 
 
-
-        return True
 
 
 
     def _execute(self):
         conn = self.conn
         cmd = req.recv_data(conn).decode('utf8')
-        while True:
+        #while True:
 
-            if cmd.upper() == "Q":
-                logging.info(("client exit"))
+        if cmd.upper() == "Q":
+            logging.info(("client exit"))
+            return False
+        if cmd.upper() == "1":
+            ID = self.enter_Stu(conn)
+            if ID.upper() == 'Q':
                 return False
-            if cmd.upper() == "1":
-                ID = self.enter_Stu(conn)
-                logging.info('*' * 20 + "STEP 2 SEND CERT" + '*' * 20)
-                time.sleep(0.2)
-                file_name = self.CSR_request(conn,ID)
+            logging.info('*' * 20 + "STEP 2 SEND CERT" + '*' * 20)
+            time.sleep(0.2)
+            file_name = self.CSR_request(conn,ID)
+
+        return False
 
 
 

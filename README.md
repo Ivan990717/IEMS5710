@@ -11,17 +11,47 @@
 
 ![image-20221120182340649](README.assets/image-20221120182340649.png)
 
-2. Hence, you have to choose **1** to choose UCHK. When you log in CUHK server, please you enter the key, which is used to generate CA private key, defined `regina`.(It may seem a bit redundant to input, thanks to the teaching assistant)
+2. Hence, you have to choose **1** to choose CUHK. When you log in CUHK server, please you enter the key, which is used to generate CA private key, defined `regina`.(It may seem a bit redundant to input, thanks to the teaching assistant)
 
-![image-20221120182554471](README.assets/image-20221120182554471.png)
+   ![image-20221123203710900](README.assets/image-20221123203710900.png)
 
 3. I have put every label in the logging info, so it will provide a more clear process effect. Then blackboard server is available. You can go back to `student.py` to choose again.
 
-   ![image-20221120183206694](README.assets/image-20221120183206694.png)
+   ![image-20221123203738130](README.assets/image-20221123203738130.png)
 
    As you can see, step4-6 will automatically run, including cert_verification, generating MAC and encrypting message, as well as sending message. 
 
 4. If you want to terminate the program, at the last you can choose **q** and the code will automatically send this command. The server will recognize that this is a command to close the connection, and then it will automatically disconnect
+
+
+
+So, the complete process is as follows:
+
+- *A*. start three py file
+
+- *B*. input sid in `student.py` and then choose **1**
+
+  ![image-20221123205406343](README.assets/image-20221123205406343.png)
+
+
+
+- *C*. In the `CUHK.py`, please input the key **regina** to issue the certificate.
+
+  ![image-20221123205501679](README.assets/image-20221123205501679.png)
+
+- *D*. back to `student.py` to choose **2**
+
+  ![image-20221123205621179](README.assets/image-20221123205621179.png)
+
+  Then `blackboard.py` will finish all the left steps.
+
+  ![image-20221123205904670](README.assets/image-20221123205904670.png)
+
+- *E*. Now, you have finished the first student and back to `student.py` to choose **q** to continue the next one.
+
+  ![image-20221123210045061](README.assets/image-20221123210045061.png)Please repeat step B to D and quit the server in the end.
+
+  ![image-20221123210216861](README.assets/image-20221123210216861.png)
 
 # PACKAGE REQUIREMENTS
 

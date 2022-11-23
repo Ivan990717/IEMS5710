@@ -89,19 +89,20 @@ class Verifyboard(object):
         conn = self.conn
         cmd = req.recv_data(conn).decode('utf8')
 
-        while True:
-            if cmd.upper() == "Q":
-                logging.info(("client exit"))
-                return False
 
-            if cmd.upper() == "2":
-                ID = self.blackboard_login(conn)
-                session_key = self.generate_session_key(conn, ID)
-                mac_ver = self.recv_mac_msg(conn=conn,id = ID)
-                if mac_ver:
-                    req.send_data(conn,"massage sent!")
-                else:
-                    req.send_data(conn,"mac verification failed!")
+        if cmd.upper() == "Q":
+            logging.info(("client exit"))
+            return False
+
+        if cmd.upper() == "2":
+            ID = self.blackboard_login(conn)
+            session_key = self.generate_session_key(conn, ID)
+            mac_ver = self.recv_mac_msg(conn=conn,id = ID)
+            if mac_ver:
+                req.send_data(conn,"massage sent!")
+            else:
+                req.send_data(conn,"mac verification failed!")
+        return False
 
 
 

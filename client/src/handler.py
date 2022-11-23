@@ -15,7 +15,7 @@ class Handler(object):
         self.BBport = BBport
         self.conn = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.connect = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.id = []
+        self.id = ''
         self.cert = {}
         self.session_key = {}
 
@@ -39,16 +39,16 @@ class Handler(object):
         return mac.hexdigest()
 
 
-    def say_hello(self,conn,i,input_id):
+    def say_hello(self,conn,input_id):
         askNo = recv_data(conn).decode('utf8')  #please input your student_id
-        ID = input_id[i]
+        ID = input_id
         send_data(conn, ID)
         msg = recv_data(conn).decode('utf8') # ID{} logins successfully
         print(msg)
 
         sign_finish = recv_data(conn).decode('utf8') # student {} sign finished
         print(sign_finish)
-        self.id.append(ID)
+        self.id = ID
         recv_save_file(conn,os.path.join(base_dir,"ca-public-key-{}.pem".format(ID)))
         fileline = ''
         with open(os.path.join(base_dir,"ca-public-key-{}.pem".format(ID)),'r') as obj:
@@ -77,23 +77,23 @@ class Handler(object):
                 print(choice)
                 self.connect.connect((ip_address,BBport))
                 send_data(self.connect, choice)
-                for i in input_id:
-
-                    send_data(self.connect,i)
-                    send_data(self.connect,self.cert[i])
-                    cert_ans = recv_data(self.connect).decode("utf8")
-                    logging.info(cert_ans)
-                    time.sleep(0.2)
-                    key = self.decrypt_session_key(self.connect,i)
-                    msg = "This is submission from SID{}".format(i)*10
-                    text_mac = self.MAC(self.connect,key,i)
-                    text = '{}_{}'.format(msg,text_mac)
-                    logging.info('*' * 20 + "STEP 6 SEND MSG_MAC" + '*' * 20)
-                    time.sleep(0.2)
-                    send_data(self.connect,text)
-                    ans = recv_data(self.connect).decode('utf8')
-                    logging.info(ans)
-                    time.sleep(0.2)
+                #for i in input_id:
+                i = input_id
+                send_data(self.connect,i)
+                send_data(self.connect,self.cert[i])
+                cert_ans = recv_data(self.connect).decode("utf8")
+                logging.info(cert_ans)
+                time.sleep(0.2)
+                key = self.decrypt_session_key(self.connect,i)
+                msg = "This is submission from SID{}\n".format(i)*10
+                text_mac = self.MAC(self.connect,key,i)
+                text = '{}_{}'.format(msg,text_mac)
+                logging.info('*' * 20 + "STEP 6 SEND MSG_MAC" + '*' * 20)
+                time.sleep(0.2)
+                send_data(self.connect,text)
+                ans = recv_data(self.connect).decode('utf8')
+                logging.info(ans)
+                time.sleep(0.2)
 
 
             if choice == "1":
@@ -104,14 +104,16 @@ class Handler(object):
                     continue
                 send_data(self.conn, choice)
                 logging.info('*' * 20 + "STEP 2 DISPLAY SIGN FINISHED" + '*' * 20)
-                for i in range(3):
-                    self.say_hello(self.conn,i,input_id)
+                # for i in range(3):
+                self.say_hello(self.conn,input_id)
 
 
 
             if choice.upper() == "Q":
                 logging.info("退出")
+                time.sleep(0.2)
                 send_data(self.conn, "q")
+                send_data(self.connect,"q")
                 break
 
 
